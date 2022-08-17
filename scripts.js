@@ -12,7 +12,7 @@ var firstDay;
 var lastDay;
 var Today;
 var refreshcount = 0;
-var w_apiurl = 'http://api.openweathermap.org/data/2.5/weather?q=Hyderabad,in&APPID=614f4f64ecf28ea9667fad0799d77732&units=metric';
+var w_apiurl = 'https://api.openweathermap.org/data/2.5/weather?q=Hyderabad,in&APPID=614f4f64ecf28ea9667fad0799d77732&units=metric';
 var lastTime = 0;
 
 function getdata() {
